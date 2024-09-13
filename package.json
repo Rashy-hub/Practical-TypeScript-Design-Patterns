@@ -1,0 +1,17 @@
+{
+  "name": "design-patterns-in-typescript",
+  "version": "1.0.0",
+  "description": "Design patterns use cases using typescript",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/main.js",
+    "dev": "npx nodemon --exec ts-node src/main.ts",
+    "watch": "npx tsc --watch",
+    "prestart": "npm run build",
+    "lint": "npx eslint 'src/**/*.{ts,tsx}'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rachid Yagoubi",
+  "license": "ISC"
+}
