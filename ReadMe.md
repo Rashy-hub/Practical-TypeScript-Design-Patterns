@@ -1,2 +1,1 @@
-# Design patterns use cases in typescript 
-
+# Design patterns use cases in typescript
